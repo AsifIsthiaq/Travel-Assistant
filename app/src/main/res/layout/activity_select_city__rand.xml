@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="resturentsactivity.SelectCity_RandA">
+
+
+    <TextView
+        android:id="@+id/tv_sc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select City"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="#007ade"
+        android:background="#000"
+        />
+    <ListView
+        android:layout_below="@+id/tv_sc"
+        android:id="@+id/list_view1"
+        android:divider="#007ade"
+        android:dividerHeight="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#75a994"
+        >
+
+    </ListView>
+
+
+</RelativeLayout>

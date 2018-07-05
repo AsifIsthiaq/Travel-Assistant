@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.travel_assistantt.MenuScreen">
+
+
+    <ImageView
+        android:id="@+id/im1"
+        android:background="@drawable/menuwall"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/im1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menuimage2"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+
+
+        <Button
+            android:id="@+id/hotel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:text="Hotels"
+            android:textSize="27dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#072b48"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/restu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Resturants"
+            android:textSize="27dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#072b48"
+            />
+        <Button
+            android:id="@+id/attraction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Attractions"
+            android:textSize="27dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#072b48"
+            />
+        <Button
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Help"
+            android:textSize="27dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#072b48"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

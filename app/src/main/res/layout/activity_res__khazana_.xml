@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="resturentsactivity.Res_Khazana_Activity">
+
+
+    <TextView
+        android:id="@+id/tv_sc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Khazana Resturant"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="#007ade"
+        android:background="#000"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/tv_sc"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/image1"
+        android:background="@drawable/khazanakhabar2">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/image1"
+        android:text="tv1"
+        android:background="#1a1919"
+        android:textColor="#ade"
+        android:textAllCaps="true"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tv1"
+        android:text="tv2"
+        android:background="#1a1919"
+        android:textColor="#ade"
+        android:textAllCaps="true"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tv2"
+        android:text="tv3"
+        android:background="#1a1919"
+        android:textColor="#ade"
+        android:textAllCaps="true"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv3"
+        android:text="MAP"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/buttonMoreinfo"
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv3"
+        android:layout_toRightOf="@+id/buttonMap"
+        android:text="MoreInfo"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.travel_assistantt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogInScreen" />
+        <activity android:name=".MenuScreen" />
+        <activity android:name="hotelsactivity.SelectCity" />
+        <activity android:name="hotelsactivity.Input_List_Activity" />
+        <activity android:name="hotelsactivity.DisplayHotelsActivity" />
+        <activity android:name="hotelsactivity.HotelDetailActivity" />
+        <activity android:name="resturentsactivity.SelectCity_RandA" />
+        <activity android:name="resturentsactivity.SelectResturantActivity" />
+        <activity android:name="resturentsactivity.Res_Khazana_Activity" />
+        <activity android:name="resturentsactivity.KhajanaMoreInfo_Activity" />
+        <activity android:name=".RegistrationScreen" />
+        <activity android:name="attractionsactivity.SelectCityAttraction" />
+        <activity android:name="attractionsactivity.SelectAttractionActivity" />
+        <activity android:name="attractionsactivity.Att_Parliament_Building" />
+        <activity android:name="attractionsactivity.Att_JFP"></activity>
+    </application>
+
+</manifest>

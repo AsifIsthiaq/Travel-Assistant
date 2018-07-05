@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/input"
+    tools:context="hotelsactivity.Input_List_Activity">
+
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#438189"
+        android:hint="Enter Hotel Name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/wishEditText"
+        android:hint="Enter Details"
+        android:background="#528d8f"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titleEditText"
+        android:layout_marginTop="30dp"
+        android:gravity="start"
+        android:layout_width="250dp"
+        android:layout_height="150dp" />
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/wishEditText"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/listButton"
+        android:text="List"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
